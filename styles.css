@@ -1,10 +1,14 @@
-.introduction {
-  line-height: 1.5;
-  font-size: 18px;
-  text-align: center;
+.button {
+  display: inline-block;
+  border: 1px solid #000;
+  padding: 0.4rem 1rem;
+  background-color: #eee;
+  font-size: 1rem;
+  color: #000;
 }
-.lead {
-  margin-bottom: 0.5em;
-  font-size: 36px;
-  font-weight: bold;
+
+.save {
+  border-color: green;
+  background-color: lightgreen;
+  color: green;
 }
