@@ -1,27 +1,22 @@
-.success-message {
-  border: 2px solid #494;
+.alert {
+  border: 2px solid #333;
   border-radius: 6px;
   padding: 10px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.success {
+  border-color: #494;
   background-color: rgba(68, 153, 68, 0.3);
-  font-weight: bold;
-  font-size: 16px;
-  color: #333;
 }
-.warning-message {
-  border: 2px solid #dd0;
-  border-radius: 6px;
-  padding: 10px;
+.warning {
+  border-color: #dd0;
   background-color: rgba(221, 221, 0, 0.3);
-  font-weight: bold;
-  font-size: 16px;
-  color: #333;
 }
-.error-message {
-  border: 2px solid #c44;
-  border-radius: 6px;
-  padding: 10px;
+.error {
+  border-color: #c44;
   background-color: rgba(204, 68, 68, 0.3);
-  font-weight: bold;
-  font-size: 16px;
-  color: #333;
 }
