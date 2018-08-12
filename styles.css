@@ -1,17 +1,17 @@
-button {}
-
 .btn {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  margin: 0;
-  font-size: inherit;
   display: inline-block;
   box-sizing: border-box;
   border: 1px solid #000;
+  margin: 0;
   padding: 0.3em 1em;
   text-align: center;
   line-height: 1;
-  background-color: #eee;
+  background: #eee;
+  font-size: inherit;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
