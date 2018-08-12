@@ -1,26 +1,18 @@
-.alert {
-  border: 2px solid #333;
+.btn {
+  display: inline-block;
   border-radius: 6px;
-  padding: 10px;
-  background-color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-  color: #333;
+  text-align: center;
 }
-.alert-success {
-  border-color: #494;
-  background-color: rgba(68, 153, 68, 0.3);
+.btn--primary {
+  border-top: 2px solid #f89;
+  border-left: 2px solid #f89;
+  border-right: 2px solid #301;
+  border-bottom: 2px solid #301;
+  background-color: #c12;
+  box-shadow: 3px 3px 2px #ccc;
+  color: #fff;
 }
-.alert-warning {
-  border-color: #dd0;
-  background-color: rgba(221, 221, 0, 0.3);
-}
-.alert-error {
-  border-color: #c44;
-  background-color: rgba(204, 68, 68, 0.3);
-}
-
-.alert-title {
-  font-size: 18px;
-  font-style: italic;
+.btn--large {
+  padding: 20px 20px;
+  font-size: 24px;
 }
