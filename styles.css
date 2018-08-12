@@ -3,31 +3,32 @@
   width: 300px;
   background-color: #fafafa;
 }
-#sidebar ul li {
+#sidebar > ul > li {
   border-bottom: 1px dashed #ccc;
 }
-#sidebar ul li a {
+#sidebar > ul > li > a {
   display: block;
   padding: 0.5em 1em;
   font-weight: bold;
   color: #489;
 }
-#sidebar ul li a:hover {
+#sidebar > ul > li > a:hover {
   background-color: #fff;
 }
 
-#sidebar .widget {
+.widget {
   padding: 10px;
 }
-#sidebar .links li {
+.links > li {
   border-bottom: 0;
 }
-#sidebar .links li a {
+.links > li > a {
+  display: block;
   padding: 0.5em;
   background-color: #6ab;
   font-weight: normal;
   color: #fff;
 }
-#sidebar .links li a:hover {
+.links > li > a:hover {
   background-color: #7bc;
 }
