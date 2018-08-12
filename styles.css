@@ -1,16 +1,27 @@
-#news {
-  border: 1px solid #489;
+.success-message {
+  border: 2px solid #494;
+  border-radius: 6px;
   padding: 10px;
-}
-#news .title {
-  border-left: 5px solid #489;
-  padding: 10px;
-  font-size: 18px;
+  background-color: rgba(68, 153, 68, 0.3);
   font-weight: bold;
-  color: #489;
+  font-size: 16px;
+  color: #333;
 }
-
-.title {
-  color: #fff; /* #news .title よりも詳細度が低いので上書きされない */
-  background-color: #489; /* #news .title が background-color を持っていないので適用される... */
+.warning-message {
+  border: 2px solid #dd0;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: rgba(221, 221, 0, 0.3);
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+.error-message {
+  border: 2px solid #c44;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: rgba(204, 68, 68, 0.3);
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
 }
