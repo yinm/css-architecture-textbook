@@ -3,16 +3,16 @@
   width: 300px;
   background-color: #fafafa;
 }
-#sidebar > ul > li {
+.menus > li {
   border-bottom: 1px dashed #ccc;
 }
-#sidebar > ul > li > a {
+.menus > li > a {
   display: block;
   padding: 0.5em 1em;
   font-weight: bold;
   color: #489;
 }
-#sidebar > ul > li > a:hover {
+.menus > li > a:hover {
   background-color: #fff;
 }
 
