@@ -1,33 +1,19 @@
-.btn {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  margin: 0;
-  font-size: inherit;
-  text-decoration: none;
-  color: inherit;
-  background: #086845;
+.icn {
+  display: inline-block;
+  background-image: url("spritesheets.png");
 }
-.btn--full {
-  width: 100%;
+.icn--edit {
+  width: 16px;
+  height: 16px;
+  background-position: 0 0;
 }
-
-.form {
-  padding: 10px;
-  width: 300px;
-  background-color: rgba(155, 255, 240, 0.53);
+.icn--delete {
+  width: 16px;
+  height: 16px;
+  background-position: -20px 0;
 }
-.form__body {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-.form__input {
-  margin-bottom: 5px;
-}
-.form__button {
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  color: #fff;
+.icn--nav-home {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -20px;
 }
