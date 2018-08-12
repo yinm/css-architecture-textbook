@@ -2,16 +2,18 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  display: inline-block;
-  box-sizing: border-box;
-  border: 1px solid #000;
   margin: 0;
-  padding: 0.3em 1em;
-  text-align: center;
-  line-height: 1;
-  background: #eee;
   font-size: inherit;
-  cursor: pointer;
   text-decoration: none;
   color: inherit;
+  background: #fafafa;
+}
+.btn--short {
+  width: 200px;
+}
+.btn--long {
+  width: 480px;
+}
+.btn--full {
+  width: 100%;
 }
