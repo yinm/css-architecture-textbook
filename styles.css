@@ -20,7 +20,7 @@
   background-color: rgba(204, 68, 68, 0.3);
 }
 
-.alert > p {
+.alert-title {
   font-size: 18px;
   font-style: italic;
 }
