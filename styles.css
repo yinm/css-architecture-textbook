@@ -20,6 +20,7 @@
   background-color: rgba(204, 68, 68, 0.3);
 }
 
-.warning {
-  color: #dd0;
+.alert p {
+  font-size: 18px;
+  font-style: italic;
 }
