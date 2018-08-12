@@ -1,10 +1,16 @@
-.logo {
-  display: inline-block;
-  width: 200px;
-  height: 80px;
-  background-color: #f00;
+.l-grid {
+  overflow: hidden;
+  margin-left: -5px;
+  margin-right: -5px;
 }
-.logo-small {
-  width: 140px;
-  height: 56px;
+.l-grid > li {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: #0f0;
 }
