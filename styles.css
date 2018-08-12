@@ -12,4 +12,5 @@
 
 .title {
   color: #fff; /* #news .title よりも詳細度が低いので上書きされない */
+  background-color: #489; /* #news .title が background-color を持っていないので適用される... */
 }
