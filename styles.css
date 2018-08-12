@@ -7,15 +7,15 @@
   font-size: 16px;
   color: #333;
 }
-.alert.success {
+.alert-success {
   border-color: #494;
   background-color: rgba(68, 153, 68, 0.3);
 }
-.alert.warning {
+.alert-warning {
   border-color: #dd0;
   background-color: rgba(221, 221, 0, 0.3);
 }
-.alert.error {
+.alert-error {
   border-color: #c44;
   background-color: rgba(204, 68, 68, 0.3);
 }
