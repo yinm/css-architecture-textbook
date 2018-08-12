@@ -1,18 +1,17 @@
 .btn {
   display: inline-block;
   border-radius: 6px;
-  text-align: center;
+  border: 1px solid #c9c9c9;
+  padding: 0.6em;
+  line-height: 1;
+  background-image: linear-gradient(top, #f2f2f2, #c9c9c9);
+  text-shadow: 0 1px 0 #fff;
+  text-decoration: none;
+  color: inherit;
 }
-.btn--primary {
-  border-top: 2px solid #f89;
-  border-left: 2px solid #f89;
-  border-right: 2px solid #301;
-  border-bottom: 2px solid #301;
-  background-color: #c12;
-  box-shadow: 3px 3px 2px #ccc;
-  color: #fff;
-}
-.btn--large {
-  padding: 20px 20px;
-  font-size: 24px;
+
+.heading {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
 }
