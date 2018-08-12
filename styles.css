@@ -1,7 +1,9 @@
 .entry-title {
+  margin-bottom: 0.5em;
+  font-size: 2em;
+}
+
+.headline {
+  padding-bottom: 10px;
   border-bottom: 2px solid #000;
-  margin-bottom: 1em;
-  padding: 10px;
-  font-size: 24px;
-  font-weight: bold;
 }
