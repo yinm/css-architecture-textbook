@@ -1,12 +1,7 @@
 .btn {
   display: inline-block;
-  border-radius: 6px;
-  border: 1px solid #c9c9c9;
-  padding: 0.6em;
-  line-height: 1;
-  background-image: linear-gradient(top, #f2f2f2, #c9c9c9);
-  text-shadow: 0 1px 0 #fff;
   text-decoration: none;
+  line-height: 1;
   color: inherit;
 }
 
@@ -14,4 +9,12 @@
   display: block;
   font-size: 18px;
   font-weight: bold;
+}
+
+.theme-default {
+  border-radius: 6px;
+  border: 1px solid #c9c9c9;
+  padding: 0.6em;
+  background-image: linear-gradient(top, #f2f2f2, #c9c9c9);
+  text-shadow: 0 1px 0 #fff;
 }
