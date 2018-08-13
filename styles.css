@@ -1,28 +1,24 @@
-.media::before,
-.media::after {
+ul {
+  padding: 0;
+}
+
+.nav {
   display: table;
-  content: " ";
+  width: 100%;
+  table-layout: fixed;/* 子要素の `table-cell` の幅を均等にする */
 }
-.media::after {
-  clear: both;
+.nav__item {
+  display: table-cell;
 }
-
-.media__image {
-  float: left;
-  margin-right: 10px;
-}
-.media__image-rev {
-  float: right;
-  margin-right: 0;
-  margin-left: 10px;
-}
-.media__image > .image {
+.nav__item > a {
   display: block;
-  width: 100px;
-  height: 100px;
-  background-color: #f00;
+  padding: 20px 0;
+  text-align: center;
+  text-decoration: none;
+  background-color: #49e;
+  font-weight: bold;
+  color: #fff;
 }
-
-.media__body {
-  overflow: hidden;
+.nav__item > a:hover {
+  background-color: #6bf;
 }
