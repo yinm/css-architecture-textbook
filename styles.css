@@ -1,27 +1,23 @@
-h2, p {
-  font-size: inherit;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+.media::before,
+.media::after {
+  display: table;
+  content: " ";
+}
+.media::after {
+  clear: both;
 }
 
-.heading {
-  position: relative;
-  border: 1px solid #000;
-  margin-bottom: 0.5em;
-  line-height: 42px;
-  padding: 0 0.6em;
-  font-size: 20px;
-  font-weight: bold;
+.media__image {
+  float: left;
+  margin-right: 10px;
 }
-.heading__link {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 1em;
-  font-size: 16px;
-  font-weight: normal;
+.media__image > .image {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+}
+
+.media__body {
+  overflow: hidden;
 }
