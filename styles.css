@@ -16,8 +16,27 @@ ul {
   border-top: 1px solid #eee;
 }
 .tableview__target {
+  position: relative;
+  padding-right: 2.4em;
   display: block;
   margin: -1em;
   padding: 1em;
   text-decoration: none;
+}
+.tableview__target-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0.6em;
+  margin: auto;
+}
+
+.ico {
+  display: inline-block;
+  background-image: url("spritesheets.png");
+}
+.ico--arrow {
+  width: 16px;
+  height: 16px;
+  background-position: -40px 0;
 }
