@@ -1,19 +1,31 @@
-.btn {
+%btn {
   display: inline-block;
-  padding: 0.3em 1em;
-  background-color: #95a5a6;
 }
-
-.btn--small {
-  font-size: 0.75em;
-}
-.btn--large {
+%btn--large {
   font-size: 1.5em;
 }
-
-.btn--primary {
-  background-color: #e85243;
+%btn--primary {
+  @extend %btn;
+  background-color: #428bca;
 }
-.btn--secondary {
-  background-color: #2980b9;
+%btn--secondary {
+  @extend %btn;
+  background-color: #5cb85c;
+}
+
+.save {
+  @extend %btn;
+  @extend %btn--large;
+  @extend %btn--primary;
+}
+
+.send {
+  @extend %btn;
+  @extend %btn--large;
+  @extend %btn--primary;
+}
+
+.go-forward {
+  @extend %btn;
+  @extend %btn--secondary;
 }

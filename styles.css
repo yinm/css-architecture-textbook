@@ -1,16 +1,11 @@
-.btn {
-  display: inline-block;
-  padding: 0.3em 1em;
-  background-color: #95a5a6; }
+.save, .send, .go-forward {
+  display: inline-block; }
 
-.btn--small {
-  font-size: 0.75em; }
-
-.btn--large {
+.save, .send {
   font-size: 1.5em; }
 
-.btn--primary {
-  background-color: #e85243; }
+.save, .send {
+  background-color: #428bca; }
 
-.btn--secondary {
-  background-color: #2980b9; }
+.go-forward {
+  background-color: #5cb85c; }
