@@ -1,24 +1,17 @@
 ul {
+  list-style: none;
   padding: 0;
 }
 
-.nav {
-  display: table;
-  width: 100%;
-  table-layout: fixed;/* 子要素の `table-cell` の幅を均等にする */
+.tableview {
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid #999;
 }
-.nav__item {
-  display: table-cell;
+.tableview__item {
+  padding: 1em;
+  background-color: #ddd;
 }
-.nav__item > a {
-  display: block;
-  padding: 20px 0;
-  text-align: center;
-  text-decoration: none;
-  background-color: #49e;
-  font-weight: bold;
-  color: #fff;
-}
-.nav__item > a:hover {
-  background-color: #6bf;
+.tableview__item + .tableview__item {
+  border-top: 1px solid #eee;
 }
