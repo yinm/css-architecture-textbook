@@ -1,12 +1,16 @@
-.btn, .btn-large, .btn-primary-large, .btn-primary {
+.btn, .btn-small, .btn-primary-small, .btn-secondary-small, .btn-large, .btn-primary-large, .btn-secondary-large, .btn-primary, .btn-secondary {
   display: inline-block;
   padding: 0.3em 1em;
   background-color: #95a5a6; }
 
-.btn-large, .btn-primary-large {
+.btn-small, .btn-primary-small, .btn-secondary-small {
+  font-size: 0.75em; }
+
+.btn-large, .btn-primary-large, .btn-secondary-large {
   font-size: 1.5em; }
 
-.btn-primary, .btn-primary-large {
-  background-color: #e85243;
-  color: #fff;
-  font-weight: bold; }
+.btn-primary, .btn-primary-small, .btn-primary-large {
+  background-color: #e85243; }
+
+.btn-secondary, .btn-secondary-small, .btn-secondary-large {
+  background-color: #2980b9; }
