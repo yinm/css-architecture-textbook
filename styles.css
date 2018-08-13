@@ -1,16 +1,16 @@
-.btn, .btn-small, .btn-primary-small, .btn-secondary-small, .btn-large, .btn-primary-large, .btn-secondary-large, .btn-primary, .btn-secondary {
+.btn {
   display: inline-block;
   padding: 0.3em 1em;
   background-color: #95a5a6; }
 
-.btn-small, .btn-primary-small, .btn-secondary-small {
+.btn--small {
   font-size: 0.75em; }
 
-.btn-large, .btn-primary-large, .btn-secondary-large {
+.btn--large {
   font-size: 1.5em; }
 
-.btn-primary, .btn-primary-small, .btn-primary-large {
+.btn--primary {
   background-color: #e85243; }
 
-.btn-secondary, .btn-secondary-small, .btn-secondary-large {
+.btn--secondary {
   background-color: #2980b9; }

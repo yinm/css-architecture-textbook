@@ -4,41 +4,16 @@
   background-color: #95a5a6;
 }
 
-.btn-small {
-  @extend .btn;
+.btn--small {
   font-size: 0.75em;
 }
-.btn-large {
-  @extend .btn;
+.btn--large {
   font-size: 1.5em;
 }
 
-.btn-primary {
-  @extend .btn;
+.btn--primary {
   background-color: #e85243;
 }
-.btn-secondary {
-  @extend .btn;
+.btn--secondary {
   background-color: #2980b9;
-}
-
-.btn-primary-small {
-  @extend .btn;
-  @extend .btn-primary;
-  @extend .btn-small;
-}
-.btn-primary-large {
-  @extend .btn;
-  @extend .btn-primary;
-  @extend .btn-large;
-}
-.btn-secondary-small {
-  @extend .btn;
-  @extend .btn-secondary;
-  @extend .btn-small;
-}
-.btn-secondary-large {
-  @extend .btn;
-  @extend .btn-secondary;
-  @extend .btn-large;
 }
