@@ -6,17 +6,23 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-<ul class="tableview">
-  <li class="tableview__item">リスト</li>
-  <li class="tableview__item">
-    <a href="#" class="tableview__target">
-      リンク
-      <span class="tableview__target-icon ico ico--arrow"></span>
-    </a>
-  </li>
-  <li class="tableview__item">
-    テキストの中に<a href="#">インラインでリンク</a>が存在する
-  </li>
-</ul>
+<div class="grid">
+  <div class="grid__item grid__item-3"><div>1</div></div>
+  <div class="grid__item grid__item-3"><div>2</div></div>
+  <div class="grid__item grid__item-3"><div>3</div></div>
+  <div class="grid__item grid__item-3"><div>4</div></div>
+</div>
+
+<div class="grid">
+  <div class="grid__item grid__item-4 has-gutter"><div>1</div></div>
+  <div class="grid__item grid__item-4 has-gutter"><div>2</div></div>
+  <div class="grid__item grid__item-4 has-gutter"><div>3</div></div>
+</div>
+
+<div class="grid grid-fill">
+  <div class="grid__item grid__item-4 has-gutter"><div>1</div></div>
+  <div class="grid__item grid__item-4 has-gutter"><div>2</div></div>
+  <div class="grid__item grid__item-4 has-gutter"><div>3</div></div>
+</div>
 </body>
 </html>
