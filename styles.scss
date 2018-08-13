@@ -1,0 +1,31 @@
+%btn {
+  display: inline-block;
+}
+%btn--large {
+  font-size: 1.5em;
+}
+%btn--primary {
+  @extend %btn;
+  background-color: #428bca;
+}
+%btn--secondary {
+  @extend %btn;
+  background-color: #5cb85c;
+}
+
+.save {
+  @extend %btn;
+  @extend %btn--large;
+  @extend %btn--primary;
+}
+
+.send {
+  @extend %btn;
+  @extend %btn--large;
+  @extend %btn--primary;
+}
+
+.go-forward {
+  @extend %btn;
+  @extend %btn--secondary;
+}
